@@ -1,0 +1,139 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.body
+{
+    width: 100%;
+    background-color:#FFEDFA;
+}
+.nav {
+    display: flex;
+    justify-content: space-between; /* Space between left and right */
+    align-items: center; /* Center items vertically */
+    background-color: #FFB8E0;
+    padding: 20px 25px; /* Add padding around navbar */
+}
+
+.left {
+    font-size: 30px;
+    font-weight:bold;
+    color:#0081A7;
+    margin-left: 50px;
+}
+
+.right {
+    display: flex;
+    gap: 30px; /* Adds space between links */
+    text-align: center;
+}
+
+.right a {
+    text-decoration: none;
+    color:#0081A7;
+    font-size: 25px;
+    padding: 5px 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right a:hover
+{
+    cursor: pointer;
+    color:#00AFB9;
+}
+
+.main
+{
+    height: 380px;
+    text-align: center;
+    padding-top: 100px;
+}
+.info h2
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color:#BE5985;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about a{
+    text-decoration: none;
+}
+.about a:visited
+{
+    color:#501ceb;
+}
+.about{
+    color:#BE5985;
+    font-size: 20px;
+}   
+
+.qualinfo h2
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color:#BE5985;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main1
+{
+    height: 420px;
+    text-align: center;
+    padding-top: 100px;
+}
+.qualabout{
+    color:#BE5985;
+    font-size: 20px;
+    text-align: center;
+}
+.qualabout h3{
+    color: #BE5985;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Skills */
+.main2
+{
+    height: 600px;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.skillabout{
+    color:#BE5985;
+    font-size: 20px;
+    text-align: center;
+}
+.skillabout h3{
+    color:#BE5985;
+    font-size: 20px;
+    text-align: center;
+}
+
+.skillinfo h2
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color:#BE5985;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.skill
+{
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* CV Section - Color Changed */
+.cv {
+    color: #FF5733; /* Updated color */
+}
+.cv a {
+    color: #FF5733;
+}
+.cv a:visited {
+    color: #D4411E;
+}
