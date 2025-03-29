@@ -10,10 +10,10 @@
 }
 .nav {
     display: flex;
-    justify-content: space-between; /* Space between left and right */
-    align-items: center; /* Center items vertically */
+    justify-content: space-between; 
+    align-items: center; 
     background-color: #FFB8E0;
-    padding: 20px 25px; /* Add padding around navbar */
+    padding: 20px 25px;
 }
 
 .left {
@@ -25,7 +25,7 @@
 
 .right {
     display: flex;
-    gap: 30px; /* Adds space between links */
+    gap: 30px; 
     text-align: center;
 }
 
@@ -94,7 +94,7 @@
     text-align: center;
 }
 
-/* Skills */
+
 .main2
 {
     height: 600px;
@@ -127,9 +127,8 @@
     padding-top: 50px;
 }
 
-/* CV Section - Color Changed */
 .cv {
-    color: #FF5733; /* Updated color */
+    color: #FF5733;
 }
 .cv a {
     color: #FF5733;
@@ -137,3 +136,18 @@
 .cv a:visited {
     color: #D4411E;
 }
+@media (max-width: 768px) 
+{
+    .nav {
+            flex-direction: column;
+            text-align: center;
+            }
+    .right {
+            flex-direction: column;
+            gap: 10px;
+            }
+    p, a {
+                font-size: 16px;
+            }
+
+
