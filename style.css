@@ -10,10 +10,12 @@
 }
 .nav {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+    justify-content: space-between; /* Space between left and right */
+    align-items: center; /* Center items vertically */
     background-color: #FFB8E0;
-    padding: 20px 25px;
+    padding: 20px 25px; /* Add padding around navbar */
+    position: fixed;
+    width: 100%;
 }
 
 .left {
@@ -21,12 +23,14 @@
     font-weight:bold;
     color:#0081A7;
     margin-left: 50px;
+    width: 50%;
 }
 
 .right {
     display: flex;
-    gap: 30px; 
+    gap: 30px; /* Adds space between links */
     text-align: center;
+    width: 50%;
 }
 
 .right a {
@@ -94,7 +98,7 @@
     text-align: center;
 }
 
-
+/* Skills */
 .main2
 {
     height: 600px;
@@ -127,8 +131,9 @@
     padding-top: 50px;
 }
 
+/* CV Section - Color Changed */
 .cv {
-    color: #FF5733;
+    color: #FF5733; /* Updated color */
 }
 .cv a {
     color: #FF5733;
@@ -136,18 +141,45 @@
 .cv a:visited {
     color: #D4411E;
 }
-@media (max-width: 768px) 
-{
+
+@media (max-width: 768px) {
     .nav {
-            flex-direction: column;
-            text-align: center;
-            }
+        flex-direction: column;
+        padding: 15px;
+    }
+    .left {
+        margin-left: 0;
+        margin-bottom: 15px;
+        font-size: 20px;
+        text-align: center;
+    }
     .right {
-            flex-direction: column;
-            gap: 10px;
-            }
-    p, a {
-                font-size: 16px;
-            }
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    section {
+        padding: 120px 20px 40px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .about, .qualabout, .skillabout {
+        font-size: 16px;
+    }
+}
 
-
+@media (max-width: 480px) {
+    .left {
+        font-size: 18px;
+    }
+    .right a {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3, h4 {
+        font-size: 18px;
+    }
+}
